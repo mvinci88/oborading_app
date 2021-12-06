@@ -1,0 +1,14 @@
+com/onboarding_app/MainActivity.java
+ com.onboarding_app.MainActivity
+com/onboarding_app/ReactNativeFlipper.java
+ com.onboarding_app.ReactNativeFlipper
+ com.onboarding_app.ReactNativeFlipper$1
+ com.onboarding_app.ReactNativeFlipper$2
+ com.onboarding_app.ReactNativeFlipper$2$1
+com/onboarding_app/MainApplication.java
+ com.onboarding_app.MainApplication
+ com.onboarding_app.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/onboarding_app/BuildConfig.java
+ com.onboarding_app.BuildConfig
