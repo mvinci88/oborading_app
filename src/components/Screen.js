@@ -95,7 +95,7 @@ const ScreenPage = () => {
 
         </View>
         {weatherInfo ? 
-          <WeatherCard weatherInfo={weatherInfo} height={0.3}/>  : null
+          <WeatherCard weatherInfo={weatherInfo} height={0.23}/>  : null
         }
         {error ? 
           <View style={{backgroundColor:"red", width:"100%"}}>
