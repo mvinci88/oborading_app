@@ -50,7 +50,7 @@ const WeatherCard = props => {
         var coord = [item.coord.lon, item.coord.lat]
 
         return (
-          <View style={{flex:props.height}}> 
+          <View style={{flex:props.height, marginTop: 10}}> 
            <LinearGradient colors={colors} style={styles.weatherComp}  start={{x: 0, y: 0}} end={{x: 1, y: 0}} >
               <Text style={{marginLeft:"2%",fontSize:22, fontWeight:"bold", color:"#FFFFFF"}}>{cityName}</Text>
 
