@@ -110,6 +110,7 @@ const ScreenPage = () => {
 
 const styles = StyleSheet.create({
   container: {
+    overflow:'scroll',
     flex:1,
     backgroundColor: "#fff",
     padding: 20,
