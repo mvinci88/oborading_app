@@ -73,7 +73,7 @@ const ScreenPage = () => {
             <Text style={styles.btnText}>{displayed.indexOf('animalDiv') > -1 ? "rimuovi seconda card" : "mostra seconda card"}</Text>
         </TouchableHighlight>
 
-        <View style={{flexDirection:'row', flex: 0.15, marginTop: 10}}>
+        <View style={{flexDirection:'row', flex: 0.10, marginTop: 10, borderColor: "black", borderWidth:1}}>
           <View style={{ flex:0.90 }}>
             <TextInput 
               placeholder="aggiungi una città"
@@ -89,7 +89,7 @@ const ScreenPage = () => {
               onPress={goFetchCity}
               variant="outline" 
               >
-              <Text style={{color:"#01175F"}} > + </Text>
+              <Text style={{color:"#01175F", marginTop: 12}} > Go > </Text>
             </TouchableHighlight>
           </View>
 
