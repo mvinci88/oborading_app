@@ -15,7 +15,7 @@ export const loggerMiddleware = store => next => action => {
 export const fetchStartEpic = action$ => action$.pipe(
   ofType(FETCH_START),
   mergeMap(action =>
-    ajax.getJSON(`http://api.openweathermap.org/data/2.5/weather?q=${action.payload}&appid=${myAPI}&units=metric`).pipe(
+    ajax.getJSON(`https://api.openweathermap.org/data/2.5/weather?q=${action.payload}&appid=${myAPI}&units=metric`).pipe(
       map(response => fetchSuccess(response)),
       catchError(error => of({
         type: WEATHER_CHANGE_ERROR,
