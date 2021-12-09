@@ -12,12 +12,6 @@ target 'onboarding_app' do
     :hermes_enabled => false
   )
 
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
-
-  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
-
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
-
   target 'onboarding_appTests' do
     inherit! :complete
     # Pods for testing
